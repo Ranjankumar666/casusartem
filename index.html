@@ -158,16 +158,16 @@
 				
 			<form action="https://formspree.io/typhonazazel@gmail.com" method="POST">
 				<label class="grad-text">Name</label><br>
-				<input type="text" name="name" value="" placeholder="Enter name..." id="name" class="form-horizontal"><br>
+				<input type="text" name="name" value="" placeholder="Enter name..." id="name" class="form-horizontal" required="required" minlength="5"><br>
 
 				<label class="grad-text">Phone</label><br>
-				<input type="text" name="phone" value="" placeholder="Enter phone..." id="phone" class="form-horizontal"><br>
+				<input type="text" name="phone" value="" placeholder="Enter phone..." id="phone" class="form-horizontal" required="required" minlength="10" maxlength="10"><br>
 				
 				<label class="grad-text">Email</label><br>
-				<input type="text" name="email" value="" placeholder="Enter Email..." id="email" class="form-horizontal"><br>
+				<input type="text" name="email" value="" placeholder="Enter Email..." id="email" class="form-horizontal" required="required" minlength="6"><br>
 				
 				<label class="grad-text">Message</label><br>
-				<textarea name="mesage" placeholder="Your Message..." id="message" class="form-horizontal"></textarea><br>
+				<textarea name="mesage" placeholder="Your Message..." id="message" class="form-horizontal" required="required" maxlength="140"></textarea><br>
 				
 				<button type="submit" class="btn btn-first" ><i class="fas fa-envelope grad-text"></i><span class="grad-text">Submit</span>
 			 	</button>
